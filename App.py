@@ -112,25 +112,3 @@ if ticker:
         - Si salta el Stop Loss, solo perderás: **${riesgo_dolares:.2f}** ({riesgo_pct}%)
         """)
 
-4.  Baja hasta el final de la página y haz clic en el botón verde "Commit
-    changes..." (Guardar cambios).
-
-Paso 2: Crear el archivo requirements.txt
-
-Este segundo archivo le dice al servidor qué herramientas necesita descargar
-para ejecutar tu app.
-
-1.  De nuevo en tu repositorio, haz clic en "Add file" -> "Create new file".
-2.  De nombre ponle exactamente: requirements.txt
-3.  En el cuadro de texto pega solo estas 4 líneas:
-    streamlit
-    yfinance
-    plotly
-    pandas
-4.  Baja y haz clic en el botón verde "Commit changes...".
-
-¡Y listo! Ahora en la pantalla principal de tu repositorio deberías ver los dos
-archivos guardados: app.py y requirements.txt.
-
-¿Pudiste crearlos? Si es así, el siguiente paso es conectar esto con Streamlit
-para que nos dé el enlace de tu app móvil.
