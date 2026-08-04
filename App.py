@@ -1,22 +1,4 @@
-¡Buenísimo que ya tengas la cuenta y el repositorio listo! Estás a la mitad del
-camino.
 
-No te preocupes, app.py es simplemente un archivo de texto donde pegamos la
-"receta" (el código Python) de tu aplicación. El nombre .py le indica al
-servidor que ese archivo contiene código de Python.
-
-Lo mejor es que puedes crearlo directamente desde la página web de GitHub, sin
-instalar nada en tu ordenador.
-
-Sigue estos pasos dentro de tu repositorio en GitHub:
-
-Paso 1: Crear el archivo app.py
-
-1.  Dentro de tu repositorio en GitHub, busca un botón arriba a la derecha que
-    dice "Add file" (Añadir archivo) y haz clic en "Create new file" (Crear
-    nuevo archivo).
-2.  En la casilla que dice Name your file... escribe exactamente: app.py
-3.  En el cuadro grande de texto de abajo, copia y pega todo este código:
 
 import pandas as pd
 import plotly.graph_objects as go
